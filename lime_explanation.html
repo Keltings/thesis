@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_div8IMFZ3NSD5C1YH5"></div>
+        <div class="lime top_div" id="top_divN77JE7WDXJYQ948"></div>
         
         <script>
-        var top_div = d3.select('#top_div8IMFZ3NSD5C1YH5').classed('lime top_div', true);
+        var top_div = d3.select('#top_divN77JE7WDXJYQ948').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["Included", "Excluded"], [0.9914210715180397, 0.00857892848196028]);
+            var pp = new lime.PredictProba(pp_svg, ["Included", "Excluded"], [2.1901731300677518e-05, 0.9999780982686993]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["Included", "Excluded"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["mobile_money_access <= 0.00", 0.41825870808147686], ["has_taken_loan <= 0.00", 0.3345477150940351], ["saves_money > 0.00", -0.3172714893712297], ["has_insurance <= 0.00", 0.26891331615096103], ["formal_bank_user <= 0.00", 0.24752975519072346], ["has_pension <= 0.00", 0.1976880394666181], ["region_central <= 0.00", -0.025045938941575047], ["region_coast <= 0.00", -0.022500511504849958], ["education_level_tertiary <= 0.00", -0.01979924651467802], ["region_mid eastern <= 0.00", -0.0186955948556937]], 1, exp_div);
+                exp.show([["formal_bank_user <= 0.00", 0.7864617636115895], ["region_upper eastern <= 0.00", -0.03634973805251674], ["marital_status_widowed <= 0.00", 0.02518420660594573], ["region_north rift <= 0.00", 0.022880987442026192], ["region_south rift <= 0.00", -0.022106519989800722], ["region_north eastern > 0.00", -0.01946938860621827], ["region_lower eastern <= 0.00", 0.019421475158907776], ["education_level_unknown <= 0.00", 0.017952983530987725], ["region_mid eastern <= 0.00", 0.016175829801453077], ["marital_status_unknown <= 0.00", -0.0055630802805048144]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["mobile_money_access", "0.00", 0.41825870808147686], ["has_taken_loan", "0.00", 0.3345477150940351], ["saves_money", "1.00", -0.3172714893712297], ["has_insurance", "0.00", 0.26891331615096103], ["formal_bank_user", "0.00", 0.24752975519072346], ["has_pension", "0.00", 0.1976880394666181], ["region_central", "0.00", -0.025045938941575047], ["region_coast", "0.00", -0.022500511504849958], ["education_level_tertiary", "0.00", -0.01979924651467802], ["region_mid eastern", "0.00", -0.0186955948556937]], 1, raw_div);
+            exp.show_raw_tabular([["formal_bank_user", "0.00", 0.7864617636115895], ["region_upper eastern", "0.00", -0.03634973805251674], ["marital_status_widowed", "0.00", 0.02518420660594573], ["region_north rift", "0.00", 0.022880987442026192], ["region_south rift", "0.00", -0.022106519989800722], ["region_north eastern", "1.00", -0.01946938860621827], ["region_lower eastern", "0.00", 0.019421475158907776], ["education_level_unknown", "0.00", 0.017952983530987725], ["region_mid eastern", "0.00", 0.016175829801453077], ["marital_status_unknown", "0.00", -0.0055630802805048144]], 1, raw_div);
         
         </script>
         </body></html>
