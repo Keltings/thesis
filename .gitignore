@@ -1,2 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+*.pkl
+*.joblib
+
+# Virtual Environment
+venv/
+.env/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Streamlit Cache
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Logs / Artifacts
+*.log
+*.tmp
+*.bak
+
+# Model outputs (optional)
+voting_ensemble_model.pkl
+feature_selector.pkl
+selected_features.pkl
 .qodo
-/venv
